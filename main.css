@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 400px;
-    padding: 100px 0 0 400px;
+    margin: 100px 0 0 400px;
 }
 .grid-square {
     width: 25px;
@@ -13,4 +13,10 @@
 .grid-square:hover{
     background-color: aqua;
     border: 2px solid rebeccapurple;
+}
+button{
+    background-color: chartreuse;
+    border: 1px solid chartreuse;
+    color: aliceblue;
+    padding: 20px;
 }
