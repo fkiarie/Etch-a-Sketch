@@ -2,10 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+    padding: 100px 0 0 400px;
 }
 .grid-square {
     width: 25px;
     height: 25px;
     border: 1px solid black;
     box-sizing: border-box;
+}
+.grid-square:hover{
+    background-color: aqua;
+    border: 2px solid rebeccapurple;
 }
